@@ -1,11 +1,11 @@
-package boki.tistory.apikeyservice
+package boki.tistory.springcloudgatewaykotlin
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ApiKeyServiceApplication
+class SpringCloudGatewayKotlinApplication
 
 fun main(args: Array<String>) {
-	runApplication<ApiKeyServiceApplication>(*args)
+    runApplication<SpringCloudGatewayKotlinApplication>(*args)
 }
